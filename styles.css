@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+}
+img{
+    width: 200px;
+    position: relative;
+    left: 15px;
+    top: 15px;
+    border-radius: 10px;
+}
+.container{
+    width: 50%;
+    height: 150vh;
+    margin: auto;border: 1px solid white;
+}
+.img_container{
+    box-sizing: border-box;
+    background-color: #8c162a;
+    width: 35%;
+    height: 150vh;
+    font-size: 12px;
+    color: rgb(143, 141, 141);
+}
+.subrrayado{
+    border-bottom: 1px solid black;
+    color: rgb(0, 0, 0);
+}
+section{
+    text-align: center;
+    margin-top: 40px;
+}
+.hobbies_container{
+    width: 95%;
+    margin: auto;
+    border-radius: 10px;
+
+}
+.inf_container{
+    background-color: #bad1c9;
+    position: relative;
+    width: 65%;
+    height: 150vh;
+    left: 233px;
+    top: -953px;
+    border-left: 1px solid black;
+    text-align: center;
+}
+.listas{
+    text-align: left;
+}
+.primer_titulo{
+    padding-top: 10px;
+}
+.primer_titulo span{
+    border-bottom: 2px solid #8c162a; 
+}
+.inf_personal_container, .Educacion_container, .Experiencia_Container{
+    background-color: rgba(128, 128, 128, 0.445);
+    border-radius: 20px;
+    width: 95%;
+    margin: auto;
+    margin-top: 40px;
+    border: 1px solid black;
+}
